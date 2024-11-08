@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Door
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,10 +16,10 @@ TagManager:
   - UI
   - Flame
   - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Damageable
+  - Dead
   - 
   - 
   - 
@@ -51,9 +53,6 @@ TagManager:
   - name: Rocks
     uniqueID: 2631362897
     locked: 0
-  - name: Trees
-    uniqueID: 3193595427
-    locked: 0
   - name: Plants
     uniqueID: 3553370405
     locked: 0
@@ -62,6 +61,18 @@ TagManager:
     locked: 0
   - name: Foreground Effect
     uniqueID: 3738702601
+    locked: 0
+  - name: Tiled
+    uniqueID: 3348855567
+    locked: 0
+  - name: Trees
+    uniqueID: 3193595427
+    locked: 0
+  - name: Decorations
+    uniqueID: 2999409905
+    locked: 0
+  - name: Enemy
+    uniqueID: 7970677
     locked: 0
   - name: Player
     uniqueID: 2687089505
