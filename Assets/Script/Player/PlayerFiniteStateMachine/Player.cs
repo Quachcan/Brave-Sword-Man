@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
         //secondaryAttackState = new PlayerAttackState(this, StateMachine, playerData, "attack");
     }
     
-    public void Initialize()
+    public void Start()
     {
         animator = GetComponent<Animator>(); 
         inputHandler = GetComponent<PlayerInputHandler>();
@@ -196,6 +196,7 @@ public class Player : MonoBehaviour
 
     public void Die()
     {
+        animator.SetTrigger("die");
         GameManager.Instance.OnPlayerDeath();
         Destroy(gameObject);
     }

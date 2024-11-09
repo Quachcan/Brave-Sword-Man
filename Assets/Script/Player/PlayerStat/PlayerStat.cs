@@ -17,9 +17,9 @@ public class PlayerStat : MonoBehaviour, IDamageable
     }
 
 
-    public void Damage(AttackDetails attackDetails)
+    public void Damage(float attackDamage)
     {
-        currentHealth -= attackDetails.damageAmount;
+        currentHealth -= attackDamage;
         OnHit();
         animator.SetTrigger("hit");
         

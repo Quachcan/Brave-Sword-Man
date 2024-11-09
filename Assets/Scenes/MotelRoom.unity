@@ -1082,10 +1082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c125a1a1a934717b2859f594427455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 577515949}
-  player: {fileID: 7249637659926791678, guid: 94b23f12f322b47abb3540e30df2336d, type: 3}
-  respawnTime: 5
-  player1: {fileID: 4911925211414170480, guid: 94b23f12f322b47abb3540e30df2336d, type: 3}
+  player: {fileID: 4911925211414170480, guid: 94b23f12f322b47abb3540e30df2336d, type: 3}
+  playerStat: {fileID: 0}
+  enemyBase: {fileID: 0}
 --- !u!1 &372857078
 GameObject:
   m_ObjectHideFlags: 0

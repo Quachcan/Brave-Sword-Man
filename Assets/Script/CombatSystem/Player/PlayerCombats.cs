@@ -31,16 +31,22 @@ public class PlayerCombats : MonoBehaviour
 
         Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(attackHitBoxPos.position, attackRadius, whatIsDamageable);
 
-        // AttackDetails attackDetails = new AttackDetails();
-        // attackDetails.damageAmount = attackDamage;
-        // attackDetails.position = transform.position;
-
         foreach (Collider2D collider in detectedObjects)
         {
             EnemyBase enemy = collider.GetComponent<EnemyBase>();
             if(enemy != null)
             {
                 enemy.Damage(attackDamage);
+            }
+            else
+            {
+                Debug.Log("Damage is not call");
+            }
+
+            BringerOfDeath bringerOfDeath = collider.GetComponent<BringerOfDeath>();
+            if (bringerOfDeath != null)
+            {
+                bringerOfDeath.Damage(attackDamage);
             }
             else
             {

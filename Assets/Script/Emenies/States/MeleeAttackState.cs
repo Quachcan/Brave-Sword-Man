@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MeleeAttackState : AttackState
 {
+
+    public float attackDamage = 15f;
     protected D_MeleeAttack stateData;
 
     protected AttackDetails attackDetails;
@@ -47,7 +49,15 @@ public class MeleeAttackState : AttackState
 
         foreach (Collider2D collider in detectedObjects)
         {
-            collider.transform.SendMessage("Damage", attackDetails);
+            PlayerStat player = collider.GetComponent<PlayerStat>();
+            if(player != null)
+            {
+                player.Damage(attackDamage);
+            }
+            else
+            {
+                Debug.Log("Damage is not call");
+            }
         }
     }
 

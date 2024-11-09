@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     private PlayerStat playerStat;
     [SerializeField]
     private EnemyBase enemyBase;
+    [SerializeField]
+    private BringerOfDeath bringerOfDeath;
 
     private CinemachineVirtualCamera CVC;
 
@@ -46,9 +48,11 @@ public class GameManager : MonoBehaviour
     {
         CVC = GameObject.Find("Player Camera").GetComponent<CinemachineVirtualCamera>();
         ChangeState(GameState.Start);
-        player.Initialize();
+        //player.Initialize();
         playerStat.Initialize();
         //enemyBase.Initialize();
+        bringerOfDeath.Initialize();
+
     }
 
     private void Update()
@@ -128,6 +132,18 @@ private void StartGame()
     {
         Debug.Log("Enemy is Dead!");
     }
+
+    public void OnBossDeath()
+    {
+        Debug.Log("Boss is dead. You Win!!!");
+    }
+
+    public void BossTakeDamage()
+    {
+        Debug.Log("Boss is hit");
+    }
+
+
 
         public GameState GetCurrentState()
     {
