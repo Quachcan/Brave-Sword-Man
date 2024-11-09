@@ -222,6 +222,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1791709630}
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1791709636}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &90352380 stripped
 Transform:
@@ -307,11 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6675777581879968164, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1
+      value: 1.46
       objectReference: {fileID: 0}
     - target: {fileID: 6675777581879968164, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.35
+      value: -0.85
       objectReference: {fileID: 0}
     - target: {fileID: 7979252942613947753, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       propertyPath: m_Layer
@@ -623,17 +626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  maxStamina: 100
-  stamina: 0
-  staminaRegenRate: 15
-  moveSpeed: 3
-  attackCoolDown: 2
   attackDamage: 10
   attackRange: 1.5
-  detectionRange: 5
-  detectionLayer:
-    serializedVersion: 2
-    m_Bits: 512
 --- !u!4 &403955284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4200775198977859753, guid: 412efac11ec384aca9ceaae56e20b05f, type: 3}
@@ -763,8 +757,6 @@ MonoBehaviour:
   wallCheck: {fileID: 1317911373}
   ledgeCheck: {fileID: 552361414}
   playerCheck: {fileID: 1930752058}
-  maxHealth: 150
-  currentHealth: 0
   idleStateData: {fileID: 11400000, guid: d6debd28320304a97a6a75af7ea2e233, type: 2}
   moveStateData: {fileID: 11400000, guid: b9e6ced933ac24372840bce2f442ec21, type: 2}
   playerDetectedData: {fileID: 11400000, guid: 9518ec6b139da43268476d0a76b686e6, type: 2}
@@ -826,8 +818,6 @@ MonoBehaviour:
   wallCheck: {fileID: 568107695}
   ledgeCheck: {fileID: 1465605050}
   playerCheck: {fileID: 1587116719}
-  maxHealth: 150
-  currentHealth: 0
   idleStateData: {fileID: 11400000, guid: d6debd28320304a97a6a75af7ea2e233, type: 2}
   moveStateData: {fileID: 11400000, guid: b9e6ced933ac24372840bce2f442ec21, type: 2}
   playerDetectedData: {fileID: 11400000, guid: 9518ec6b139da43268476d0a76b686e6, type: 2}
@@ -2244,8 +2234,6 @@ MonoBehaviour:
   wallCheck: {fileID: 728666713}
   ledgeCheck: {fileID: 74552417}
   playerCheck: {fileID: 90352380}
-  maxHealth: 150
-  currentHealth: 0
   idleStateData: {fileID: 11400000, guid: d6debd28320304a97a6a75af7ea2e233, type: 2}
   moveStateData: {fileID: 11400000, guid: b9e6ced933ac24372840bce2f442ec21, type: 2}
   playerDetectedData: {fileID: 11400000, guid: 9518ec6b139da43268476d0a76b686e6, type: 2}
@@ -49198,8 +49186,6 @@ MonoBehaviour:
   wallCheck: {fileID: 1182903421}
   ledgeCheck: {fileID: 421663059}
   playerCheck: {fileID: 1116496819}
-  maxHealth: 150
-  currentHealth: 0
   idleStateData: {fileID: 11400000, guid: d6debd28320304a97a6a75af7ea2e233, type: 2}
   moveStateData: {fileID: 11400000, guid: b9e6ced933ac24372840bce2f442ec21, type: 2}
   playerDetectedData: {fileID: 11400000, guid: 9518ec6b139da43268476d0a76b686e6, type: 2}
@@ -49242,17 +49228,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  maxStamina: 100
-  stamina: 0
-  staminaRegenRate: 15
-  moveSpeed: 3
-  attackCoolDown: 2
   attackDamage: 10
   attackRange: 1.5
-  detectionRange: 5
-  detectionLayer:
-    serializedVersion: 2
-    m_Bits: 512
+--- !u!114 &1056007371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056007352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  attackDamage: 10
+  attackRange: 1.5
 --- !u!1 &1057913817 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
@@ -49277,17 +49270,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  maxStamina: 100
-  stamina: 0
-  staminaRegenRate: 15
-  moveSpeed: 3
-  attackCoolDown: 2
   attackDamage: 10
   attackRange: 1.5
-  detectionRange: 5
-  detectionLayer:
-    serializedVersion: 2
-    m_Bits: 512
+--- !u!114 &1107433482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057913817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  attackDamage: 10
+  attackRange: 1.5
 --- !u!1001 &1116496818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49383,6 +49383,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1056007365}
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1056007371}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &1116496819 stripped
 Transform:
@@ -49635,8 +49638,6 @@ MonoBehaviour:
   wallCheck: {fileID: 1432449878}
   ledgeCheck: {fileID: 508087981}
   playerCheck: {fileID: 243545729}
-  maxHealth: 150
-  currentHealth: 0
   idleStateData: {fileID: 11400000, guid: d6debd28320304a97a6a75af7ea2e233, type: 2}
   moveStateData: {fileID: 11400000, guid: b9e6ced933ac24372840bce2f442ec21, type: 2}
   playerDetectedData: {fileID: 11400000, guid: 9518ec6b139da43268476d0a76b686e6, type: 2}
@@ -49985,6 +49986,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1145729011984657276, guid: a7020bb2276cd4a40b1b5213110e6e4b, type: 3}
   m_PrefabInstance: {fileID: 7085900515088963058}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1244664900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+  m_PrefabInstance: {fileID: 1930752057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1244664906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244664900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  attackDamage: 10
+  attackRange: 1.5
 --- !u!1 &1264992638
 GameObject:
   m_ObjectHideFlags: 0
@@ -50078,7 +50100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 667323757}
   playerStat: {fileID: 667323760}
-  enemyBase: {fileID: 572466277}
+  enemyBase: {fileID: 0}
 --- !u!4 &1465605050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 668950624307289954, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
@@ -77758,6 +77780,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1107433476}
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107433482}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &1587116719 stripped
 Transform:
@@ -77798,17 +77823,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  maxStamina: 100
-  stamina: 0
-  staminaRegenRate: 15
-  moveSpeed: 3
-  attackCoolDown: 2
   attackDamage: 10
   attackRange: 1.5
-  detectionRange: 5
-  detectionLayer:
-    serializedVersion: 2
-    m_Bits: 512
+--- !u!114 &1791709636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791709617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  attackDamage: 10
+  attackRange: 1.5
 --- !u!4 &1870973847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8049640246420423653, guid: 67be3de3dc9fb89429438583d96b800a, type: 3}
@@ -78257,7 +78289,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244664906}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &1930752058 stripped
 Transform:

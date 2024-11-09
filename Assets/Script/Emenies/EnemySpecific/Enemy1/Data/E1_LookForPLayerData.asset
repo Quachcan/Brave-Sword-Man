@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: E1_LookForPLayerData
   m_EditorClassIdentifier: 
   amountOfTurns: 2
-  timeBetweenTurns: 0.1
+  timeBetweenTurns: 0.05
