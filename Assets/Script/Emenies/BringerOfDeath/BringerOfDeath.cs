@@ -9,6 +9,8 @@ public class BringerOfDeath : MonoBehaviour, IDamageable
 
     private Animator animator;
 
+    public HealthBar healthBar;
+
 
     public float maxHealth = 500f;
     [SerializeField]
@@ -21,6 +23,7 @@ public class BringerOfDeath : MonoBehaviour, IDamageable
 
     public void Initialize()
     {
+        healthBar.SetMaxHealth(maxHealth);
         currenHealth = maxHealth;
     }
     public void Flip()
@@ -38,7 +41,9 @@ public class BringerOfDeath : MonoBehaviour, IDamageable
     public void Damage(float damage)
     {
         currenHealth -= damage;
-
+        healthBar.SetHealth(currenHealth);
+        animator.SetTrigger("hit");
+        OnHit();
         if (currenHealth <= 0)
         {
             Die();
@@ -49,7 +54,7 @@ public class BringerOfDeath : MonoBehaviour, IDamageable
     {
         OnDead();
         animator.SetTrigger("Dead");
-        Destroy(gameObject);
+        StartCoroutine(DestroyAfterDelay(0.8f));
     }
 
     public void OnHit()
@@ -61,5 +66,13 @@ public class BringerOfDeath : MonoBehaviour, IDamageable
     {
         GameManager.Instance.OnBossDeath();
     }
+
+    private IEnumerator DestroyAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject);
+    }
 }
+
+
 

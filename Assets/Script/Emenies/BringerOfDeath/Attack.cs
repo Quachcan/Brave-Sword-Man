@@ -6,25 +6,39 @@ public class Attack : MonoBehaviour
 {
     public float attackDamage = 50f;
     public float attackRadius = 4f;
+    public float attackCoolDown = 2f;
+
+    private float lastAttackTime;
+
+    public bool canAttack => Time.time >= lastAttackTime + attackCoolDown;
     
     public Transform attackHitBoxPos;
     public LayerMask whatIsPlayer;
 
     public void TriggerAttack()
     {
-        Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(attackHitBoxPos.position, attackRadius, whatIsPlayer);
+            if(!canAttack) return;
+            lastAttackTime = Time.time;
+            Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(attackHitBoxPos.position, attackRadius, whatIsPlayer);
 
-        foreach (Collider2D collider in detectedObjects)
-        {
-            PlayerStat player = collider.GetComponent<PlayerStat>();
-            if(player != null)
+            foreach (Collider2D collider in detectedObjects)
             {
-                player.Damage(attackDamage);
+                PlayerStat player = collider.GetComponent<PlayerStat>();
+                if(player != null)
+                {
+                    player.Damage(attackDamage);
+                }
+                else
+                {
+                    Debug.Log("Damage is not call");
+                }
             }
-            else
-            {
-                Debug.Log("Damage is not call");
-            }
-        }
     }
 }
+
+//     private IEnumerator AttackCoolDownRoutine()
+//     {
+//         yield return new WaitForSeconds(attackCoolDown);
+//         canAttack = false;
+//     }
+// }

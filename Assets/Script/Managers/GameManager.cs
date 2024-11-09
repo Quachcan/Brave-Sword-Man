@@ -4,20 +4,22 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
-    [SerializeField]
-    private Player player;
-    [SerializeField]
-    private PlayerStat playerStat;
-    [SerializeField]
-    private EnemyBase enemyBase;
-    [SerializeField]
-    private BringerOfDeath bringerOfDeath;
+    public Player player;
 
-    private CinemachineVirtualCamera CVC;
+    public PlayerStat playerStat;
+
+    public EnemyBase enemyBase;
+
+    public BringerOfDeath bringerOfDeath;
+    
+    public GuardKnight guardKnight;
+
+    public CinemachineVirtualCamera CVC;
 
     public static GameManager Instance { get; private set;}
     public GameState currentState { get; private set; } = GameState.Start;
@@ -46,12 +48,18 @@ public class GameManager : MonoBehaviour
 
     private void Start ()
     {
+        player = GetComponent<Player>();
+        playerStat = GetComponent<PlayerStat>();
+        bringerOfDeath = GetComponent<BringerOfDeath>();
+        enemyBase = GetComponent<EnemyBase>();
+        guardKnight = GetComponent<GuardKnight>();
+
         CVC = GameObject.Find("Player Camera").GetComponent<CinemachineVirtualCamera>();
         ChangeState(GameState.Start);
         //player.Initialize();
-        playerStat.Initialize();
+        //playerStat.Initialize();
         //enemyBase.Initialize();
-        bringerOfDeath.Initialize();
+        //bringerOfDeath.Initialize();
 
     }
 
@@ -110,6 +118,7 @@ private void StartGame()
 
     public void GameOver()
     {
+        UIManager.Instance.GameOverUI();
         Debug.Log("Game Over");
     }
 
@@ -142,8 +151,6 @@ private void StartGame()
     {
         Debug.Log("Boss is hit");
     }
-
-
 
         public GameState GetCurrentState()
     {

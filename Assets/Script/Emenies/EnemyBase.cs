@@ -19,12 +19,19 @@ public class EnemyBase : MonoBehaviour, IDamageable
 
     private Transform player;
     private Rigidbody2D rb;
+    public HealthBar healthBar;
+
+
+    private void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     public void Start()
     {
         currentHealth = maxHealth;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        rb = GetComponent<Rigidbody2D>();
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     private void Update()
@@ -35,6 +42,7 @@ public class EnemyBase : MonoBehaviour, IDamageable
     public void Damage(float attackDamage)
     {
         currentHealth -= attackDamage;
+        healthBar.SetHealth(currentHealth);
         OnHit();
 
         if (currentHealth < 0)

@@ -8,12 +8,17 @@ public class PlayerStat : MonoBehaviour, IDamageable
     public float maxHealth = 200f;
     [SerializeField]
     private float currentHealth;
+    [SerializeField]    
+    private HealthBar healthBar;
     private Animator animator;
 
     public void Initialize()
     {
+        player = GetComponent<Player>();
+        healthBar = GameObject.Find("PlayerHealthBar").GetComponent<HealthBar>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
+        healthBar.SetMaxHealth(maxHealth);
     }
 
 
@@ -21,6 +26,7 @@ public class PlayerStat : MonoBehaviour, IDamageable
     {
         currentHealth -= attackDamage;
         OnHit();
+        healthBar.SetHealth(currentHealth);
         animator.SetTrigger("hit");
         
         if(currentHealth <= 0)

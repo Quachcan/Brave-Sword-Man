@@ -16,7 +16,7 @@ MonoBehaviour:
   wallCheckDistance: 2
   ledgeCheckDistance: 0.5
   minAgroDistance: 14
-  maxAgroDistance: 16
+  maxAgroDistance: 20
   closeRangeActionDistance: 2
   whatIsGround:
     serializedVersion: 2
