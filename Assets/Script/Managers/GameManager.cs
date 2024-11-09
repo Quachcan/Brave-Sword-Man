@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PlayerStat playerStat;
     [SerializeField]
-    private EnemyBase1 enemyBase;
+    private EnemyBase enemyBase;
 
     private CinemachineVirtualCamera CVC;
 
@@ -113,19 +113,20 @@ private void StartGame()
     {
         Debug.Log("Player is Hit");
     }
-    //     public void PlayerDied()
-    // {
-    //     ChangeState(GameState.GameOver);
-    // }
+
+    public void OnEnemyHit()
+    {
+
+    }
 
     public void OnPlayerDeath()
     {
         ChangeState(GameState.GameOver);
     }
 
-    public void OnEnemyDeath(EnemyBase1 enemyBase)
+    public void OnEnemyDeath(EnemyBase enemyBase)
     {
-        throw new NotImplementedException();
+        Debug.Log("Enemy is Dead!");
     }
 
         public GameState GetCurrentState()

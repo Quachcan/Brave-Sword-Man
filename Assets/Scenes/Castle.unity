@@ -218,7 +218,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1791709630}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &90352380 stripped
 Transform:
@@ -298,6 +301,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6239653813962167226, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6675777581879968164, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1
@@ -305,6 +312,10 @@ PrefabInstance:
     - target: {fileID: 6675777581879968164, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979252942613947753, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8360329408977501141, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
       propertyPath: m_LocalPosition.x
@@ -357,11 +368,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 392816025}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &243545729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8360329408977501141, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+  m_PrefabInstance: {fileID: 243545728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &260088902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
   m_PrefabInstance: {fileID: 243545728}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &286840588 stripped
@@ -590,6 +609,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8947662914976094110, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
   m_PrefabInstance: {fileID: 243545728}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &392816025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260088902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  maxStamina: 100
+  stamina: 0
+  staminaRegenRate: 15
+  moveSpeed: 3
+  attackCoolDown: 2
+  attackDamage: 10
+  attackRange: 1.5
+  detectionRange: 5
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!4 &403955284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4200775198977859753, guid: 412efac11ec384aca9ceaae56e20b05f, type: 3}
@@ -49179,11 +49223,71 @@ Transform:
   - {fileID: 293098890}
   m_Father: {fileID: 370074734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1056007352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+  m_PrefabInstance: {fileID: 1116496818}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1056007365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056007352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  maxStamina: 100
+  stamina: 0
+  staminaRegenRate: 15
+  moveSpeed: 3
+  attackCoolDown: 2
+  attackDamage: 10
+  attackRange: 1.5
+  detectionRange: 5
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!1 &1057913817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+  m_PrefabInstance: {fileID: 1587116718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1107433463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8947662914976094110, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
   m_PrefabInstance: {fileID: 1587116718}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1107433476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057913817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  maxStamina: 100
+  stamina: 0
+  staminaRegenRate: 15
+  moveSpeed: 3
+  attackCoolDown: 2
+  attackDamage: 10
+  attackRange: 1.5
+  detectionRange: 5
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1001 &1116496818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49275,7 +49379,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1056007365}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &1116496819 stripped
 Transform:
@@ -49505,7 +49612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148073101}
   - component: {fileID: 1148073100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77647,7 +77754,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107433476}
   m_SourcePrefab: {fileID: 100100000, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
 --- !u!4 &1587116719 stripped
 Transform:
@@ -77669,6 +77779,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1656002483024533237, guid: 708fb9300cb1f415d9093cb07f09007f, type: 3}
   m_PrefabInstance: {fileID: 4673778319147679782}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1791709617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2762487161465953851, guid: 15220e422256c447f86ddd6f73b24318, type: 3}
+  m_PrefabInstance: {fileID: 90352379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1791709630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791709617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f3c470b9426421386184135eecb418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  maxStamina: 100
+  stamina: 0
+  staminaRegenRate: 15
+  moveSpeed: 3
+  attackCoolDown: 2
+  attackDamage: 10
+  attackRange: 1.5
+  detectionRange: 5
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!4 &1870973847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8049640246420423653, guid: 67be3de3dc9fb89429438583d96b800a, type: 3}

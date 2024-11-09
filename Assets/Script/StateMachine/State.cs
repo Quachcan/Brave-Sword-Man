@@ -27,7 +27,15 @@ public class State
 
     public virtual void Exit()
     {
-        enemyBase1.animator.SetBool(animatorBoolName, false);
+        if (enemyBase1 != null)
+        {
+
+        enemyBase1.animator?.SetBool(animatorBoolName, false);
+        }
+        else
+        {
+            return;
+        }
     }
     public virtual void LogicUpdate()
     {

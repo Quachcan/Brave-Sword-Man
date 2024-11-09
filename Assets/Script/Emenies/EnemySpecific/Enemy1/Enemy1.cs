@@ -44,6 +44,13 @@ public class Enemy1 : EnemyBase1
     public override void OnDrawGizmos()
     {
         base.OnDrawGizmos();
-        Gizmos.DrawWireSphere(meleeAttackPosition.position, meleeAttackStateData.attackRadius );
+        if(meleeAttackPosition != null)
+        {
+            Gizmos.DrawWireSphere(meleeAttackPosition.position, meleeAttackStateData.attackRadius );
+        }
+        else 
+        {
+            return;
+        }
     }
 }
