@@ -59,11 +59,11 @@ public class EnemyBase : MonoBehaviour, IDamageable
 
     public void OnHit()
     {
-        GameManager.Instance.OnEnemyHit();
+        OldGameManager.Instance.OnEnemyHit();
     }
 
     public void OnDead()
     {
-        GameManager.Instance.OnEnemyDeath(this);
+        OldGameManager.Instance.OnEnemyDeath(this);
     }
 }

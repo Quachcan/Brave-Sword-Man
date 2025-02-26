@@ -1,4 +1,5 @@
 using Game.Script.Player.Config;
+using Game.Script.Player.Old_Scripts.PlayerFiniteStateMachine;
 using Game.Script.Player.PlayerFiniteStateMachine;
 using Game.Script.Player.PlayerStates.SuperStates;
 using UnityEngine;
@@ -8,10 +9,11 @@ namespace Game.Script.Player.PlayerStates.SubStates
     public class PlayerJumpState : PlayerAbilityState
     {
         public int amountOfJumpsLeft;
-        
+
+
         public PlayerJumpState(PlayerManager playerManager, PlayerStateMachine playerStateMachine, PlayerConfig playerConfig, string animBoolName) : base(playerManager, playerStateMachine, playerConfig, animBoolName)
         {
-            amountOfJumpsLeft = playerConfig.amountOfJumps;
+            this.amountOfJumpsLeft = amountOfJumpsLeft;
         }
 
         public override void Enter()

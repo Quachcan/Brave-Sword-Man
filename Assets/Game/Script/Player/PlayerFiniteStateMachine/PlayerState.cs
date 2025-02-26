@@ -1,8 +1,9 @@
 using Game.Script.Manager;
 using Game.Script.Player.Config;
+using Game.Script.Player.PlayerFiniteStateMachine;
 using UnityEngine;
 
-namespace Game.Script.Player.PlayerFiniteStateMachine
+namespace Game.Script.Player.PlayerStates
 {
     public class PlayerState
     {
@@ -11,8 +12,8 @@ namespace Game.Script.Player.PlayerFiniteStateMachine
         protected PlayerConfig playerConfig;
 
         protected float startTime;
-        protected bool isAnimationFinished;    
-        
+        protected bool isAnimationFinished;
+
         private string animBoolName;
 
         public PlayerState(PlayerManager playerManager, PlayerStateMachine playerStateMachine,
@@ -26,10 +27,10 @@ namespace Game.Script.Player.PlayerFiniteStateMachine
 
         public virtual void Enter()
         {
+            // Gọi animation bool name từ animator trong playerManager
             playerManager.Anim.SetBool(animBoolName, true);
             DoChecks();
             startTime = Time.time;
-            Debug.Log(animBoolName);
             isAnimationFinished = false;
         }
 
@@ -38,26 +39,11 @@ namespace Game.Script.Player.PlayerFiniteStateMachine
             playerManager.Anim.SetBool(animBoolName, false);
         }
 
-        public virtual void LogicUpdate()
-        {
-            
-        }
+        public virtual void LogicUpdate() { }
+        public virtual void PhysicsUpdate() { DoChecks(); }
+        public virtual void DoChecks() { }
 
-        public virtual void PhysicsUpdate()
-        {
-            DoChecks();
-        }
-
-        public virtual void DoChecks()
-        {
-            
-        }
-
-        public virtual void AnimationTrigger()
-        {
-            
-        }
-
+        public virtual void AnimationTrigger() { }
         public virtual void AnimationFinishTrigger() => isAnimationFinished = true;
     }
 }

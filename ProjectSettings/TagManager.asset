@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ground
-<<<<<<< Updated upstream
-  - Door
-  - Enemy
-=======
-  - Mobs
-  - Door
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -19,20 +11,12 @@ TagManager:
   - 
   - Water
   - UI
-  - Flame
-<<<<<<< Updated upstream
   - 
-  - Ground
-  - Player
-  - Damageable
-  - Dead
-=======
-  - Mobs
-  - Ground
-  - Player
-  - Damageable
   - 
->>>>>>> Stashed changes
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -54,46 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 861080813
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ground
-    uniqueID: 592204853
-    locked: 0
-  - name: Rocks
-    uniqueID: 2631362897
-    locked: 0
-  - name: Plants
-    uniqueID: 3553370405
-    locked: 0
-  - name: Environments
-    uniqueID: 4185585593
-    locked: 0
-  - name: Foreground Effect
-    uniqueID: 3738702601
-    locked: 0
-  - name: Tiled
-    uniqueID: 3348855567
-    locked: 0
-  - name: Trees
-    uniqueID: 3193595427
-    locked: 0
-<<<<<<< Updated upstream
-  - name: Decorations
-    uniqueID: 2999409905
-    locked: 0
-  - name: Enemy
-=======
-  - name: Props
-    uniqueID: 2999409905
-    locked: 0
-  - name: Mob
->>>>>>> Stashed changes
-    uniqueID: 7970677
-    locked: 0
-  - name: Player
-    uniqueID: 2687089505
     locked: 0

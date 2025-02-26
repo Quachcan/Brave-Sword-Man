@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!1101 &-8895663083741312522
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -26,13 +27,20 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &-8569149390871645485
+=======
+--- !u!1102 &-5937953079599088973
+>>>>>>> Stashed changes
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_Name: Attack2
+=======
+  m_Name: Knight1_Death
+>>>>>>> Stashed changes
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -46,13 +54,105 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
   m_Motion: {fileID: 7400000, guid: 5295c85eea2f15044ac5495c4e8e662f, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: 2750e22ede4b1d844bf53107a20fe27b, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
 --- !u!1101 &-7870165145578135681
+=======
+--- !u!1102 &-5415763604845573727
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Knight1_Hit
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 1870664874488015189}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 02c3c97eba5f01a44b5d6daa701c69af, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+--- !u!91 &9100000
+AnimatorController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Knight1
+  serializedVersion: 5
+  m_AnimatorParameters:
+  - m_Name: Knockback
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  m_AnimatorLayers:
+  - serializedVersion: 5
+    m_Name: Base Layer
+    m_StateMachine: {fileID: 8953657347652649264}
+    m_Mask: {fileID: 0}
+    m_Motions: []
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 9100000}
+--- !u!1101 &1870664874488015189
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Knockback
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6724826878937208851}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &1978349329462333407
+========
+--- !u!1101 &-6656389502917821096
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,10 +161,21 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
+<<<<<<< Updated upstream
     m_ConditionEvent: Dash
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6005018836542275030}
+=======
+    m_ConditionEvent: Knockback
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+  m_DstState: {fileID: -5415763604845573727}
+========
+  m_DstState: {fileID: -5357951682897496316}
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -77,6 +188,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+<<<<<<< Updated upstream
 --- !u!1102 &-6930403382255151940
 AnimatorState:
   serializedVersion: 6
@@ -215,6 +327,11 @@ AnimatorStateTransition:
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
 --- !u!1101 &-1636192592629641252
 =======
+=======
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+--- !u!1102 &2001034664063751650
+========
+>>>>>>> Stashed changes
 --- !u!1102 &-5357951682897496316
 AnimatorState:
   serializedVersion: 6
@@ -243,31 +360,49 @@ AnimatorState:
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 --- !u!1101 &-2342319757656066585
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+=======
+>>>>>>> Stashed changes
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
   m_Conditions: []
 =======
+=======
+>>>>>>> Stashed changes
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: speed
     m_EventTreshold: 0.01
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 97960548982250827}
+=======
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 7385979448043124657}
+>>>>>>> Stashed changes
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
+<<<<<<< Updated upstream
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.79452056
   m_HasExitTime: 1
+=======
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.7058823
+  m_HasExitTime: 0
+>>>>>>> Stashed changes
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -298,13 +433,21 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &-783200958725689034
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_Name: Attack3
+=======
+  m_Name: Knight1_Idle
+>>>>>>> Stashed changes
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -318,19 +461,28 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
   m_Motion: {fileID: 7400000, guid: ded81cf4d5083ef4d9cf7ac964e94b5a, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: bf6294266a7d4904baacfd4f479d22ab, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
 --- !u!1102 &-497594339413598827
+=======
+--- !u!1102 &2087019321109233313
+>>>>>>> Stashed changes
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_Name: Jump/Fall
   m_Speed: 1
   m_CycleOffset: 0
@@ -359,6 +511,9 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Die
+=======
+  m_Name: Knight1_Attack
+>>>>>>> Stashed changes
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -371,12 +526,22 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
   m_Motion: {fileID: 7400000, guid: 1e94c1f68dd1eaa4786f03775d60c6d0, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: e3d2827654f91c94a9fd399cabb1d964, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+--- !u!1102 &2809702576373212996
+========
+>>>>>>> Stashed changes
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -386,6 +551,7 @@ AnimatorController:
   m_Name: NamelessSwordMan
   serializedVersion: 5
   m_AnimatorParameters:
+<<<<<<< Updated upstream
   - m_Name: Attack1
     m_Type: 9
     m_DefaultFloat: 0
@@ -405,11 +571,15 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: yVelocity
+=======
+  - m_Name: speed
+>>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< Updated upstream
   - m_Name: isGrounded
     m_Type: 4
     m_DefaultFloat: 0
@@ -463,6 +633,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+=======
+  - m_Name: isJumping
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 1
+>>>>>>> Stashed changes
     m_Controller: {fileID: 9100000}
   - m_Name: JumpAndFall
     m_Type: 1
@@ -502,17 +679,31 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
 --- !u!1102 &97960548982250827
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+  m_Name: Knight1_AttackCombo
+========
+>>>>>>> Stashed changes
   m_Name: Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
+<<<<<<< Updated upstream
   - {fileID: -8895663083741312522}
+=======
+  - {fileID: -2342319757656066585}
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -528,6 +719,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
 --- !u!1101 &180261608159026414
 =======
@@ -558,6 +750,8 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1101 &1678788544952475035
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -604,6 +798,7 @@ AnimatorStateTransition:
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
+<<<<<<< Updated upstream
   m_CanTransitionToSelf: 0
 --- !u!206 &3523595965729313859
 BlendTree:
@@ -703,6 +898,9 @@ AnimatorStateTransition:
   m_CanTransitionToSelf: 1
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
 =======
+=======
+  m_CanTransitionToSelf: 1
+>>>>>>> Stashed changes
 --- !u!206 &4079797540336999927
 BlendTree:
   m_ObjectHideFlags: 1
@@ -734,7 +932,10 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+=======
+>>>>>>> Stashed changes
 --- !u!1102 &4314815864238318785
 AnimatorState:
   serializedVersion: 6
@@ -743,6 +944,10 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Attack1
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -756,15 +961,27 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
   m_Motion: {fileID: 7400000, guid: 26b7f3278a274b243a715004be4b85cb, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: bc04efca3b0539f4c8be7048cc9752d5, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
 --- !u!1101 &4536798383385767375
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
 =======
+=======
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+--- !u!1109 &4166628031957666301
+AnimatorTransition:
+========
+--- !u!1101 &4536798383385767375
+>>>>>>> Stashed changes
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -837,13 +1054,19 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1101 &5434702369495321725
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
 AnimatorStateTransition:
+=======
+AnimatorStateTransition:
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
+<<<<<<< Updated upstream
   m_Conditions:
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
   - m_ConditionMode: 1
@@ -898,10 +1121,113 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1
+=======
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+  m_Conditions: []
+========
+  m_Conditions:
+  - m_ConditionMode: 4
+    m_ConditionEvent: speed
+    m_EventTreshold: 0.01
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6724826878937208851}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+  serializedVersion: 1
+--- !u!1102 &5281716350890387156
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Knight1_Attack2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 3dc4ff8d254e858498d67d1731df0259, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &6724826878937208851
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Knight1_Run
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 9c85b1215a1837942be01ab9b8bfbc36, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8552805945501366536
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Knight1_Hit 0
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 02c3c97eba5f01a44b5d6daa701c69af, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1107 &8953657347652649264
+========
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.7580645
+  m_HasExitTime: 0
+>>>>>>> Stashed changes
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+<<<<<<< Updated upstream
 --- !u!1101 &5370014020895640704
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -937,6 +1263,10 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
 --- !u!1107 &5956524623466469880
+=======
+--- !u!1107 &5956524623466469880
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -946,6 +1276,7 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<< Updated upstream
     m_State: {fileID: 97960548982250827}
     m_Position: {x: 200, y: -10, z: 0}
   - serializedVersion: 1
@@ -967,6 +1298,45 @@ AnimatorStateMachine:
 =======
     m_Position: {x: 460, y: -10, z: 0}
   - serializedVersion: 1
+=======
+    m_State: {fileID: 2001034664063751650}
+    m_Position: {x: 60, y: -70, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 6724826878937208851}
+    m_Position: {x: 300, y: -70, z: 0}
+  - serializedVersion: 1
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Enemy/Knight1/Knight1.controller
+    m_State: {fileID: 2087019321109233313}
+    m_Position: {x: -190, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5281716350890387156}
+    m_Position: {x: 280, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2809702576373212996}
+    m_Position: {x: 520, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5415763604845573727}
+    m_Position: {x: 300, y: -160, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5937953079599088973}
+    m_Position: {x: 40, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8552805945501366536}
+    m_Position: {x: 5290.663, y: 2069.9414, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions:
+  - {fileID: 1978349329462333407}
+  m_EntryTransitions:
+  - {fileID: 4166628031957666301}
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 320, y: -240, z: 0}
+  m_EntryPosition: {x: 320, y: 20, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 6724826878937208851}
+========
+>>>>>>> Stashed changes
     m_State: {fileID: 6005018836542275030}
     m_Position: {x: 710, y: -10, z: 0}
   - serializedVersion: 1
@@ -978,6 +1348,7 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -783200958725689034}
     m_Position: {x: -260, y: -10, z: 0}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
   - serializedVersion: 1
     m_State: {fileID: -314433635561910509}
@@ -1011,6 +1382,13 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 460, y: 0, z: 0}
   m_ExitPosition: {x: 460, y: 100, z: 0}
 =======
+=======
+  - serializedVersion: 1
+    m_State: {fileID: -314433635561910509}
+    m_Position: {x: 445, y: 455, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6930403382255151940}
+>>>>>>> Stashed changes
     m_Position: {x: 480, y: 520, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5357951682897496316}
@@ -1027,7 +1405,10 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: -240, y: -160, z: 0}
   m_EntryPosition: {x: 220, y: 80, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+=======
+>>>>>>> Stashed changes
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 97960548982250827}
 --- !u!1102 &6005018836542275030
@@ -1040,8 +1421,12 @@ AnimatorState:
   m_Name: Slide
   m_Speed: 1
   m_CycleOffset: 0
+<<<<<<< Updated upstream
   m_Transitions:
   - {fileID: -1636192592629641252}
+=======
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1057,6 +1442,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
 --- !u!1101 &7099337868098049591
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1119,6 +1505,8 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1102 &7385979448043124657
 AnimatorState:
   serializedVersion: 6
@@ -1130,7 +1518,11 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
+<<<<<<< Updated upstream
   - {fileID: 8405561264293771433}
+=======
+  - {fileID: 5434702369495321725}
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1146,6 +1538,7 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/NamelessSwordMan.controller
 --- !u!1101 &8405561264293771433
 AnimatorStateTransition:
@@ -1174,6 +1567,8 @@ AnimatorStateTransition:
   m_CanTransitionToSelf: 1
 =======
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+=======
+>>>>>>> Stashed changes
 --- !u!1101 &8437414915774671501
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1196,3 +1591,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/NamelessSwordMan.controller
+>>>>>>> Stashed changes

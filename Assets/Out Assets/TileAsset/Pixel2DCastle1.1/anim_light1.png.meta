@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
-guid: 29460e2601b0bf041bf04ce4ec7087ae
+guid: f55d591e7946646068277f6ea8079b17
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+guid: 2b1dcf7fbadbd2f4b9f120411b557377
+>>>>>>> Stashed changes
 ========
 guid: 5fcfeae2efc326a43b3f9863f89b601b
 >>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
@@ -98,7 +103,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< Updated upstream
     buildTarget: iPhone
+=======
+    buildTarget: iOS
+>>>>>>> Stashed changes
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -124,7 +133,24 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< Updated upstream
     buildTarget: Windows Store Apps
+=======
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+>>>>>>> Stashed changes
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -140,6 +166,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       name: anim_lights_0
       rect:
@@ -169,6 +196,16 @@ TextureImporter:
         y: 80
         width: 11
         height: 15
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      name: Run_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 192
+        width: 31
+        height: 45
+>>>>>>> Stashed changes
 ========
       name: anim_light1_0
       rect:
@@ -185,9 +222,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       spriteID: 73e5b7740393145999945037c9130440
       internalID: -1492384142
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      spriteID: 81139a043faa1414d946289952d6c34a
+      internalID: -1512611825
+>>>>>>> Stashed changes
 ========
       spriteID: 67d56274713a15d45a71b768a2846ef1
       internalID: 374068762
@@ -197,6 +240,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       name: anim_lights_2
       rect:
@@ -205,6 +249,16 @@ TextureImporter:
         y: 80
         width: 11
         height: 15
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      name: Run_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 192
+        width: 33
+        height: 46
+>>>>>>> Stashed changes
 ========
       name: anim_light1_1
       rect:
@@ -213,6 +267,10 @@ TextureImporter:
         y: 0
         width: 16
         height: 32
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,13 +278,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: e08be5b7a54aed141ad8a5769ac4761d
       internalID: -1433354352
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      spriteID: 88fb45ec0cf03e340a2d4e394768bf5f
+      internalID: 1194486012
+========
+      spriteID: e08be5b7a54aed141ad8a5769ac4761d
+      internalID: -1433354352
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      name: Run_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 128
+        width: 34
+        height: 46
+========
+>>>>>>> Stashed changes
       name: anim_light1_2
       rect:
         serializedVersion: 2
@@ -234,6 +314,10 @@ TextureImporter:
         y: 0
         width: 16
         height: 32
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,13 +325,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 00fd3456d5290974ab8526aabbb73288
       internalID: -15665252
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      spriteID: f1fa7a5fe0bb1584ca8a2b064bbe9489
+      internalID: 433882213
+========
+      spriteID: 00fd3456d5290974ab8526aabbb73288
+      internalID: -15665252
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      name: Run_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 128
+        width: 31
+        height: 46
+========
+>>>>>>> Stashed changes
       name: anim_light1_3
       rect:
         serializedVersion: 2
@@ -255,6 +361,10 @@ TextureImporter:
         y: 0
         width: 16
         height: 32
+<<<<<<< Updated upstream
+=======
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,13 +372,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 01b0472343288f0439ed516489a0e29d
       internalID: 864746563
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      spriteID: d180a4a02f67c4f41a29bda3a36d3769
+      internalID: -1692597012
+========
+      spriteID: 01b0472343288f0439ed516489a0e29d
+      internalID: 864746563
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Pixel2DCastle1.1/anim_light1.png.meta
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      name: Run_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 31
+        height: 45
+========
+>>>>>>> Stashed changes
       name: anim_light1_4
       rect:
         serializedVersion: 2
@@ -284,9 +416,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       spriteID: 37e5207baf751417689948161aa05492
       internalID: -1001179742
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      spriteID: a8545d4becacee447bcadca1bdd765f4
+      internalID: -1448489804
+>>>>>>> Stashed changes
 ========
       spriteID: 1d7f431a19bb0d147b0ebcb2757f079c
       internalID: 1797993848
@@ -296,6 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       name: anim_lights_3
       rect:
@@ -304,6 +443,16 @@ TextureImporter:
         y: 80
         width: 11
         height: 14
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      name: Run_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 64
+        width: 30
+        height: 46
+>>>>>>> Stashed changes
 ========
       name: anim_light1_5
       rect:
@@ -320,14 +469,21 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       spriteID: e3fcd8d24966b458cbf3febb5a57af34
       internalID: 1174899099
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      spriteID: eed470146a2899347bc6c365259851b3
+      internalID: -847738039
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
       name: anim_lights_4
       rect:
         serializedVersion: 2
@@ -335,6 +491,15 @@ TextureImporter:
         y: 64
         width: 11
         height: 14
+=======
+      name: Run_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 32
+        height: 46
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,13 +507,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 40b51e57cd5aa4a23b80a25eff7f6725
       internalID: 1914345024
+=======
+      spriteID: e8327b7925313144493e3861a6b27134
+      internalID: -335501846
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
       name: anim_lights_5
       rect:
         serializedVersion: 2
@@ -356,6 +527,15 @@ TextureImporter:
         y: 64
         width: 11
         height: 15
+=======
+      name: Run_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 31
+        height: 46
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,6 +543,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 1004baaa3619a403fb8a4c9d0d05809b
       internalID: -963163195
       vertices: []
@@ -428,6 +609,10 @@ TextureImporter:
       bones: []
       spriteID: 6ac05fba2ce8c407faf3d813b89463a9
       internalID: -1304196356
+=======
+      spriteID: 56ec060eff9b7754197e963cd37e21a8
+      internalID: 648341206
+>>>>>>> Stashed changes
 ========
       spriteID: 987048809fa050547a22733ff2c79673
       internalID: -2088458800
@@ -447,6 +632,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Pixel2DCastle1.1/anim_lights.png.meta
       anim_lights_0: -226610971
       anim_lights_1: -1492384142
@@ -457,6 +643,17 @@ TextureImporter:
       anim_lights_6: -543435889
       anim_lights_7: -1902210471
       anim_lights_8: -1304196356
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/2D_SL_Knight_v1.0/Run.png.meta
+      Run_0: -1512611825
+      Run_1: 1194486012
+      Run_2: 433882213
+      Run_3: -1692597012
+      Run_4: -1448489804
+      Run_5: -847738039
+      Run_6: -335501846
+      Run_7: 648341206
+>>>>>>> Stashed changes
 ========
       anim_light1_0: 374068762
       anim_light1_1: -1433354352

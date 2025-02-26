@@ -38,7 +38,7 @@ public class PlayerStat : MonoBehaviour, IDamageable
 
     public void OnHit()
     {
-        GameManager.Instance.OnPlayerHit();
+        OldGameManager.Instance.OnPlayerHit();
     }
 
     public void OnDead()

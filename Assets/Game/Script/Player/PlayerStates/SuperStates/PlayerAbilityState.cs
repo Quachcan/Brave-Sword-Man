@@ -1,4 +1,5 @@
 using Game.Script.Player.Config;
+using Game.Script.Player.Old_Scripts.PlayerFiniteStateMachine;
 using Game.Script.Player.PlayerFiniteStateMachine;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ namespace Game.Script.Player.PlayerStates.SuperStates
     {
         protected bool IsAbilityDone;
         private bool isGrounded;
+
+
         public PlayerAbilityState(PlayerManager playerManager, PlayerStateMachine playerStateMachine, PlayerConfig playerConfig, string animBoolName) : base(playerManager, playerStateMachine, playerConfig, animBoolName)
         {
         }
@@ -48,7 +51,7 @@ namespace Game.Script.Player.PlayerStates.SuperStates
         public override void DoChecks()
         {
             base.DoChecks();
-
+            
             isGrounded = playerManager.CheckIfGrounded();
         }
     }

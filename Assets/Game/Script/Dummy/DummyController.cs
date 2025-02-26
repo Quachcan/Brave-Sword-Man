@@ -15,7 +15,7 @@ public class DummyController : MonoBehaviour
 
     private bool playerOnLeft, knockBack;
 
-    private PlayerController3 controller;
+    //private PlayerController3 controller;
     private GameObject aliveGO, brokenTopGO, brokenBotGO;
     private Rigidbody2D rbAlive, rbBrokenTop, rbBrokenBot;
     private Animator animator;
@@ -24,7 +24,7 @@ public class DummyController : MonoBehaviour
     {
         currenHealth = maxHealth;
 
-        controller = GameObject.Find("NamelessSwordMan").GetComponent<PlayerController3>();
+        //controller = GameObject.Find("NamelessSwordMan").GetComponent<PlayerController3>();
 
         aliveGO = transform.Find("Alive").gameObject;
         brokenTopGO = transform.Find("Broken Top").gameObject;
@@ -48,7 +48,7 @@ public class DummyController : MonoBehaviour
     private void Damage(float amount)
     {
         currenHealth -= amount;
-        playerFacingDirection = controller.GetFacingDirection();
+        //playerFacingDirection = controller.GetFacingDirection();
         
 
 

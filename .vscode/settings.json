@@ -60,6 +60,7 @@
     "git.ignoreLimitWarning": true,
     "cSpell.words": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "Agro",
         "chơi",
         "Cinemachine",
@@ -68,10 +69,14 @@
 =======
         "chơi",
 >>>>>>> Stashed changes
+=======
+        "chơi",
+>>>>>>> Stashed changes
         "đang",
         "định",
         "Dừng",
         "Giảm",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         "gian",
         "Giới",
@@ -109,6 +114,8 @@
     "cSpell.ignoreWords": [
         "Knigt"
 =======
+=======
+>>>>>>> Stashed changes
         "Giới",
         "hoặc",
         "hoạt",
@@ -126,6 +133,9 @@
         "Thiết",
         "trong",
         "velocityelocity"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     ]
 }

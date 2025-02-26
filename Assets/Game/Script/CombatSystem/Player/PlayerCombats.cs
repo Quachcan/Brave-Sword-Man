@@ -9,7 +9,7 @@ public class PlayerCombats : MonoBehaviour
     public LayerMask whatIsDamageable;
 
     private Animator animator;
-    private GameManager gameManager;
+    //private GameManager gameManager;
 
     void Awake()
     {

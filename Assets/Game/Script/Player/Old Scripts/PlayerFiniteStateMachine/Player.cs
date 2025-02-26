@@ -1,24 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using Game.Script.Player.Old_Scripts.PlayerFiniteStateMachine;
 using UnityEngine;
 using UnityEngine.InputSystem.XInput;
 
 public class Player : MonoBehaviour
 {
-    public PlayerStateMachine StateMachine { get; private set; }
-    public PlayerIdleState idleState { get; private set; }
-    public PlayerMoveState moveState { get; private set; }
-    public PlayerJumpState jumpState { get; private set; }
-    public PlayerInAirState inAirState { get; private set; }
-    public PlayerLandingState landingState { get; private set; }
-    public PlayerWallSlideState wallSlideState { get; private set; }
-    public PlayerWallGrabState wallGrabState { get; private set; }
-    public PlayerWallClimbState wallClimbState { get; private set; }
-    public PlayerWallJumpState wallJumpState { get; private set; }
-    public PlayerLedgeClimbState ledgeClimbState { get; private set; }
-    public PlayerDashState dashState { get; private set; }
-    public PlayerCrouchIdleState crouchIdleState { get; private set; }
-    public PlayerCrouchMoveState crouchMoveState { get; private set; } 
+    public OldPlayerStateMachine StateMachine { get; private set; }
+    public OldPlayerIdleState idleState { get; private set; }
+    public OldPlayerMoveState moveState { get; private set; }
+    public OldPlayerJumpState jumpState { get; private set; }
+    public OldPlayerInAirState inAirState { get; private set; }
+    public OldPlayerLandingState landingState { get; private set; }
+    public OldPlayerWallSlideState wallSlideState { get; private set; }
+    public OldPlayerWallGrabState wallGrabState { get; private set; }
+    public OldPlayerWallClimbState wallClimbState { get; private set; }
+    public OldPlayerWallJumpState wallJumpState { get; private set; }
+    public OldPlayerLedgeClimbState ledgeClimbState { get; private set; }
+    public OldPlayerDashState dashState { get; private set; }
+    public OldPlayerCrouchIdleState crouchIdleState { get; private set; }
+    public OldPlayerCrouchMoveState crouchMoveState { get; private set; } 
     //public PlayerAttackState primaryAttackState { get; private set; }
     //public PlayerAttackState secondaryAttackState { get; private set; } 
 
@@ -49,21 +50,21 @@ public class Player : MonoBehaviour
 
     public void Awake()
     {
-        StateMachine = new PlayerStateMachine();
+        StateMachine = new OldPlayerStateMachine();
 
-        idleState = new PlayerIdleState(this, StateMachine, playerData, "idle");
-        moveState = new PlayerMoveState(this, StateMachine, playerData, "move");
-        jumpState = new PlayerJumpState(this, StateMachine, playerData, "inAir");
-        inAirState = new PlayerInAirState(this, StateMachine, playerData, "inAir");
-        landingState = new PlayerLandingState(this, StateMachine, playerData, "land");
-        wallSlideState = new PlayerWallSlideState(this, StateMachine, playerData, "wallSlide");
-        wallGrabState = new PlayerWallGrabState(this, StateMachine, playerData, "wallGrab");
-        wallClimbState = new PlayerWallClimbState(this, StateMachine, playerData, "wallClimb");
-        wallJumpState = new PlayerWallJumpState(this, StateMachine, playerData, "inAir");
-        ledgeClimbState = new PlayerLedgeClimbState(this, StateMachine, playerData,"ledgeClimbState");
-        dashState = new PlayerDashState(this, StateMachine, playerData, "inAir");
-        crouchIdleState = new PlayerCrouchIdleState(this, StateMachine, playerData, "crouchIdle");
-        crouchMoveState = new PlayerCrouchMoveState(this, StateMachine, playerData, "crouchMove");
+        idleState = new OldPlayerIdleState(this, StateMachine, playerData, "idle");
+        moveState = new OldPlayerMoveState(this, StateMachine, playerData, "move");
+        jumpState = new OldPlayerJumpState(this, StateMachine, playerData, "inAir");
+        inAirState = new OldPlayerInAirState(this, StateMachine, playerData, "inAir");
+        landingState = new OldPlayerLandingState(this, StateMachine, playerData, "land");
+        wallSlideState = new OldPlayerWallSlideState(this, StateMachine, playerData, "wallSlide");
+        wallGrabState = new OldPlayerWallGrabState(this, StateMachine, playerData, "wallGrab");
+        wallClimbState = new OldPlayerWallClimbState(this, StateMachine, playerData, "wallClimb");
+        wallJumpState = new OldPlayerWallJumpState(this, StateMachine, playerData, "inAir");
+        ledgeClimbState = new OldPlayerLedgeClimbState(this, StateMachine, playerData,"ledgeClimbState");
+        dashState = new OldPlayerDashState(this, StateMachine, playerData, "inAir");
+        crouchIdleState = new OldPlayerCrouchIdleState(this, StateMachine, playerData, "crouchIdle");
+        crouchMoveState = new OldPlayerCrouchMoveState(this, StateMachine, playerData, "crouchMove");
         //primaryAttackState = new PlayerAttackState(this, StateMachine, playerData,"attack");
         //secondaryAttackState = new PlayerAttackState(this, StateMachine, playerData, "attack");
     }
@@ -197,7 +198,7 @@ public class Player : MonoBehaviour
     public void Die()
     {
         animator.SetTrigger("die");
-        GameManager.Instance.OnPlayerDeath();
+        //GameManager.Instance.OnPlayerDeath();
         Destroy(gameObject);
     }
 

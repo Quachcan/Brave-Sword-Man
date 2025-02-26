@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Out Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png.meta
 guid: 0aa236cb0b0cd4b428ad912d874cf8e3
+========
+guid: 341add9cd457b9f43a5f5ddebb1657cc
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

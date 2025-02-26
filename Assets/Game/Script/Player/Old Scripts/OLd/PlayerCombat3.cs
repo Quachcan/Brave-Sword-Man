@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCombat : MonoBehaviour
+public class OldPlayerCombat : MonoBehaviour
 {
     [Header("Combat Settings")]
     [SerializeField] private float attackRadius = 0.5f; // Bán kính đòn tấn công
@@ -23,7 +23,7 @@ public class PlayerCombat : MonoBehaviour
     private void Update()
     {
 
-        if (GameManager.Instance.GetCurrentState() == GameManager.GameState.Playing)
+        if (OldGameManager.Instance.GetCurrentState() == OldGameManager.GameState.Playing)
         {
             HandleAttackInput();
         }

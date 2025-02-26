@@ -1,4 +1,5 @@
 using Game.Script.Player.Config;
+using Game.Script.Player.Old_Scripts.PlayerFiniteStateMachine;
 using Game.Script.Player.PlayerFiniteStateMachine;
 using Game.Script.Player.PlayerStates.SuperStates;
 using UnityEngine;
@@ -14,6 +15,8 @@ namespace Game.Script.Player.PlayerStates.SubStates
         private bool jumpInput;
         private bool jumpInputStop;
         private bool isJumping;
+
+
         public PlayerInAirState(PlayerManager playerManager, PlayerStateMachine playerStateMachine, PlayerConfig playerConfig, string animBoolName) : base(playerManager, playerStateMachine, playerConfig, animBoolName)
         {
         }

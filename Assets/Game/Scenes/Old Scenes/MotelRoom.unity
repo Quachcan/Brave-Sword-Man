@@ -133,10 +133,14 @@ GameObject:
   - component: {fileID: 106114679}
   - component: {fileID: 106114681}
   - component: {fileID: 106114680}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
   - component: {fileID: 106114682}
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  - component: {fileID: 106114682}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Structure
   m_TagString: Untagged
@@ -417,8 +421,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
   - first: {x: 2, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -449,7 +456,10 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - first: {x: 6, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -480,8 +490,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
   - first: {x: 2, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -512,7 +525,10 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - first: {x: 6, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -543,8 +559,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
   - first: {x: 2, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -575,7 +594,10 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - first: {x: 6, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -600,11 +622,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 22
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 23
 =======
       m_TileSpriteIndex: 22
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 22
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -614,11 +640,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 25
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 27
 =======
       m_TileSpriteIndex: 25
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 25
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -628,11 +658,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 23
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 28
 =======
       m_TileSpriteIndex: 23
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 23
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -648,8 +682,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
   - first: {x: 2, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -680,7 +717,10 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - first: {x: 6, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -705,11 +745,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 20
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 26
 =======
       m_TileSpriteIndex: 20
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 20
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -719,11 +763,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 24
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 25
 =======
       m_TileSpriteIndex: 24
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 24
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -733,11 +781,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 21
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 24
 =======
       m_TileSpriteIndex: 21
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 21
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -857,11 +909,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 22
 =======
       m_TileSpriteIndex: 5
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 5
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1031,11 +1087,15 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 19
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
       m_TileSpriteIndex: 21
 =======
       m_TileSpriteIndex: 19
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+      m_TileSpriteIndex: 19
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1051,6 +1111,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 54dfa24e4e3300c46a794f656267fe07, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 45cd2667d48951c47a4b4b5615722513, type: 2}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 2b77c126dfef37c4dacd750d47816b28, type: 2}
@@ -1059,13 +1120,18 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 2b77c126dfef37c4dacd750d47816b28, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 594a2aac4fe1f6b428e6a66402ff828e, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a4de390398f614241b24552bf694960a, type: 2}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 907ce2fc49015eb41976cabd2629d627, type: 2}
   - m_RefCount: 4
@@ -1074,6 +1140,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c2ec94b9f628a534f8c070a1006fd7a3, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 9ad87b95c4d96dc46a0ef3146a64bec3, type: 2}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -1093,6 +1160,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 24663a4f7a3453748a0ce9fe44dd32f1, type: 2}
   - m_RefCount: 1
 =======
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 1ece09ac33285e442930a68952c8d321, type: 2}
   - m_RefCount: 1
@@ -1110,7 +1179,10 @@ Tilemap:
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 24663a4f7a3453748a0ce9fe44dd32f1, type: 2}
   - m_RefCount: 2
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
     m_Data: {fileID: 11400000, guid: 9a439c54a132afa4d989684b0ba63ed8, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 994c167415ae12f498f2500a3b52f1a8, type: 2}
@@ -1124,6 +1196,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 42b5d9a78a24d2c45882a1721d70fa4b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 99834448d40ff4c43a7e631201eec354, type: 2}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -1133,6 +1206,8 @@ Tilemap:
     m_Data: {fileID: 0}
 =======
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   m_TileSpriteArray:
   - m_RefCount: 3
     m_Data: {fileID: -1523670737, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
@@ -1144,6 +1219,7 @@ Tilemap:
     m_Data: {fileID: 2067935989, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 1194348572, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -1152,19 +1228,25 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 2
     m_Data: {fileID: 1955493801, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -338125574, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1367980556, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 4
     m_Data: {fileID: 850914394, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 155122470, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -1332863324, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -1205,6 +1287,8 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 66
 =======
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 1
     m_Data: {fileID: 606882052, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 1
@@ -1237,7 +1321,10 @@ Tilemap:
     m_Data: {fileID: 2047373863, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 78
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
     m_Data:
       e00: 1
       e01: 0
@@ -1256,11 +1343,15 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 66
 =======
   - m_RefCount: 78
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  - m_RefCount: 78
+>>>>>>> Stashed changes
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1286,6 +1377,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 --- !u!1 &206056118
 GameObject:
@@ -1293,10 +1385,15 @@ GameObject:
 --- !u!61 &106114682
 BoxCollider2D:
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+--- !u!61 &106114682
+BoxCollider2D:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   serializedVersion: 6
   m_Component:
@@ -1374,6 +1471,8 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 106114678}
   m_Enabled: 1
   m_Density: 1
@@ -1578,7 +1677,10 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1 &467360350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,6 +2212,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - first: {x: -1, y: -3, z: 0}
     second:
@@ -2123,6 +2226,8 @@ Tilemap:
       m_AllTileFlags: 1073741825
 =======
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   - first: {x: 0, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -3297,11 +3402,15 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0ac00d53a8a3cc94e866287887a74cce, type: 2}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 63
 =======
   - m_RefCount: 62
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  - m_RefCount: 62
+>>>>>>> Stashed changes
     m_Data: {fileID: 11400000, guid: dde23da616c8ad842b8840ceb914cd58, type: 2}
   - m_RefCount: 16
     m_Data: {fileID: 11400000, guid: 9b7d6d1098fdbdc48bfae3cb44248fbf, type: 2}
@@ -3360,11 +3469,15 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 63
 =======
   - m_RefCount: 62
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  - m_RefCount: 62
+>>>>>>> Stashed changes
     m_Data: {fileID: -1257639107, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   - m_RefCount: 16
     m_Data: {fileID: 1438485620, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
@@ -3421,11 +3534,15 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -1548907098, guid: 4c8b557c5e71e8a48b13a2046a27187b, type: 3}
   m_TileMatrixArray:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 162
 =======
   - m_RefCount: 161
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  - m_RefCount: 161
+>>>>>>> Stashed changes
     m_Data:
       e00: 1
       e01: 0
@@ -3444,11 +3561,15 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - m_RefCount: 162
 =======
   - m_RefCount: 161
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  - m_RefCount: 161
+>>>>>>> Stashed changes
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -3474,6 +3595,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 --- !u!1 &497783817
 GameObject:
@@ -3858,6 +3980,8 @@ MonoBehaviour:
   player: {fileID: 7249637659926791678, guid: 94b23f12f322b47abb3540e30df2336d, type: 3}
 =======
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1 &521418734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,17 +4043,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
     - - {x: -8.905991, y: 3.2814255}
       - {x: -8.906251, y: -5.385243}
       - {x: 8.820715, y: -5.449396}
       - {x: 8.777685, y: 3.3241942}
 =======
+=======
+>>>>>>> Stashed changes
     - - {x: -6.24025, y: 2.1101153}
       - {x: -6.179926, y: -3.971593}
       - {x: 6.21556, y: -4.096331}
       - {x: 6.192725, y: 2.1730788}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   m_UseDelaunayMesh: 0
 --- !u!4 &521418736
 Transform:
@@ -3939,6 +4069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521418734}
   serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.9653649, y: 1.6510488, z: -0.7531491}
@@ -3977,6 +4108,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.83, y: -0.86, z: -0.08078901}
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.83, y: -0.86, z: -0.08078901}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4075,8 +4210,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6060537426227587594, guid: 852c54e39f6ab14488e01ef062baed2a, type: 3}
   m_PrefabInstance: {fileID: 6813881038411846342}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!43 &866377497
 Mesh:
   m_ObjectHideFlags: 0
@@ -4242,7 +4380,10 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1 &915181407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,10 +4396,13 @@ GameObject:
   - component: {fileID: 915181409}
   - component: {fileID: 915181408}
   - component: {fileID: 915181411}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - component: {fileID: 915181412}
 =======
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4309,11 +4453,15 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   orthographic size: 4.3
 =======
   orthographic size: 3
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  orthographic size: 3
+>>>>>>> Stashed changes
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4338,6 +4486,7 @@ Transform:
   m_GameObject: {fileID: 915181407}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_LocalPosition: {x: 0.82, y: 0.53999996, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -4345,12 +4494,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 372857079}
 =======
+=======
+>>>>>>> Stashed changes
   m_LocalPosition: {x: -1.7057317, y: -1.8844899, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &915181411
 MonoBehaviour:
@@ -4386,6 +4540,7 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 --- !u!114 &915181412
 MonoBehaviour:
@@ -4433,6 +4588,8 @@ MonoBehaviour:
     m_ContrastAdaptiveSharpening: 0
 =======
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1136982350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4515,8 +4672,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!43 &1205248368
 Mesh:
   m_ObjectHideFlags: 0
@@ -4682,7 +4842,10 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1470294878
 GameObject:
   m_ObjectHideFlags: 0
@@ -4781,11 +4944,15 @@ GameObject:
   - component: {fileID: 1511094938}
   - component: {fileID: 1511094937}
   - component: {fileID: 1511094936}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_Layer: 8
 =======
   m_Layer: 0
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Floor
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5643,6 +5810,7 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1511094936}
     m_ColliderPaths:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
     - - X: 90000000
         Y: 40000000
@@ -5677,6 +5845,8 @@ CompositeCollider2D:
       - {x: -7.9999704, y: 3}
       - {x: 8, y: 2.9999707}
 =======
+=======
+>>>>>>> Stashed changes
     - - X: 21000000
         Y: 28000000
       - X: -21000000
@@ -5829,7 +5999,10 @@ CompositeCollider2D:
       - {x: -5.6, y: 0.0000294}
       - {x: -5.5999703, y: 2.1000001}
       - {x: 5.6, y: 2.0999708}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -5873,11 +6046,15 @@ GameObject:
   - component: {fileID: 1516874789}
   - component: {fileID: 1516874788}
   m_Layer: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_Name: Player Camera
 =======
   m_Name: Virtual Camera
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  m_Name: Virtual Camera
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5917,17 +6094,23 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 4.3
 =======
+=======
+>>>>>>> Stashed changes
   m_Follow: {fileID: 1833209387}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 3
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -5953,19 +6136,26 @@ Transform:
   m_GameObject: {fileID: 1516874787}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_LocalPosition: {x: 0.82, y: 0.54, z: -5}
 =======
   m_LocalPosition: {x: -2.27, y: -2.21, z: -10}
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  m_LocalPosition: {x: -2.27, y: -2.21, z: -10}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 580090609}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_Father: {fileID: 372857079}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1833209387 stripped
@@ -5973,7 +6163,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8850445176940321152, guid: 67be3de3dc9fb89429438583d96b800a, type: 3}
   m_PrefabInstance: {fileID: 3744088377961338977}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1994221843
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,21 +6206,28 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.87, y: -1.4, z: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 467360351}
   - {fileID: 106114679}
   - {fileID: 1511094933}
   - {fileID: 2045477365}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - {fileID: 497783818}
 =======
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2045477364
@@ -6152,8 +6352,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &3744088377961338977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6235,7 +6438,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67be3de3dc9fb89429438583d96b800a, type: 3}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &6813881038411846342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6301,6 +6507,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Scenes/MotelRoom.unity
   - {fileID: 206056119}
   - {fileID: 372857079}
@@ -6308,10 +6515,15 @@ SceneRoots:
   - {fileID: 1136982352}
   - {fileID: 577515949}
 =======
+=======
+>>>>>>> Stashed changes
   - {fileID: 915181410}
   - {fileID: 1994221845}
   - {fileID: 1136982352}
   - {fileID: 3744088377961338977}
   - {fileID: 1516874790}
   - {fileID: 521418736}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Assets/Game/Scenes/Old Scenes/MotelRoom.unity
+=======
+>>>>>>> Stashed changes

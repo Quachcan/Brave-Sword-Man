@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Out Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Background/Background.png.meta
 guid: 4e5cfedbc7e4664429d4e7ef36df01e0
+========
+guid: 5c5487c84b6e5fa4dad32a0a0c2829fa
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/FurniturePack/FurniturePreview.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -4,34 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-<<<<<<< Updated upstream
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 7d61f853541924e66a626816536c6328
-  - enabled: 1
-    path: Assets/Scenes/Game Setting.unity
-    guid: 6771f530286b04939a552e4b6cb6acac
-  - enabled: 1
-    path: Assets/Scenes/Village.unity
-=======
-  - enabled: 0
-    path: Assets/Game/Scenes/Old Scenes/MotelRoom.unity
-    guid: bc553b16276d8ff4299aa1beff6338a7
-  - enabled: 0
-    path: Assets/Game/Scenes/Old Scenes/TheMotel.unity
-    guid: e96229c5f9a00f7459ef36c211f9aca3
-  - enabled: 0
-    path: Assets/Game/Scenes/Old Scenes/Village.unity
->>>>>>> Stashed changes
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/CastleEntrance.unity
-    guid: d9851f20f53554d47a1d56e0d61abf98
-  - enabled: 1
-    path: Assets/Scenes/Castle.unity
-    guid: 794f4b1beee64440ea7ec4a0f3e7f826
-  - enabled: 1
-    path: Assets/Scenes/Boss Room.unity
-    guid: aa6161065a41946b89b895bc415c9135
+  m_Scenes: []
   m_configObjects: {}

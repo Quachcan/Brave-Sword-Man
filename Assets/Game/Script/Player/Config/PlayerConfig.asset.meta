@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/DefaultVolumeProfile.asset.meta
-guid: 19638638d06d7b048987616dc1ec23dc
+guid: 134b503ee63fd4403be59fef56dc5ec8
+=======
+<<<<<<<< Updated upstream:Assets/Game/Tiles/Bulding/Buildings_0.asset.meta
+guid: b8a8b5db2590e9743b48e0670944b537
+>>>>>>> Stashed changes
 ========
 guid: 329f66aee089347a089aab30c922994e
 >>>>>>>> Stashed changes:Assets/Game/Script/Player/Config/PlayerConfig.asset.meta

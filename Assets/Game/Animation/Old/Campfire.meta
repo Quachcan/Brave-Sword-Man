@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/Campfire.meta
 <<<<<<<< Updated upstream:Assets/Game/Animation/Old/Campfire.meta
 guid: 362d5475fac695f4c96e2a32f79c5b3e
@@ -8,6 +9,9 @@ guid: 5450f822bdb7c4775a0c58d793d2d4fc
 =======
 guid: 362d5475fac695f4c96e2a32f79c5b3e
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/Campfire.meta
+=======
+guid: 362d5475fac695f4c96e2a32f79c5b3e
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

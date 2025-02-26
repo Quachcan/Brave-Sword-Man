@@ -59,12 +59,12 @@ public class BringerOfDeath : MonoBehaviour, IDamageable
 
     public void OnHit()
     {
-        GameManager.Instance.BossTakeDamage();
+        OldGameManager.Instance.BossTakeDamage();
     }
 
     public void OnDead()
     {
-        GameManager.Instance.OnBossDeath();
+        OldGameManager.Instance.OnBossDeath();
     }
 
     private IEnumerator DestroyAfterDelay(float delay)

@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
-guid: de86fcd39784b3841bfceb428e420173
+guid: 448b52d89bdf04cb280a0421d1aecc14
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Hit.png.meta
+guid: da14c101209934649bc500b7b34db875
+>>>>>>> Stashed changes
 ========
 guid: 4e966a3c0a8eed449a1539af42d7e71a
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
@@ -52,7 +57,15 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   spritePixelsToUnits: 32
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Hit.png.meta
+  spritePixelsToUnits: 16
+========
+  spritePixelsToUnits: 32
+>>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
+>>>>>>> Stashed changes
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,7 +84,11 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
+<<<<<<< Updated upstream
   - serializedVersion: 3
+=======
+  - serializedVersion: 4
+>>>>>>> Stashed changes
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -84,7 +101,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
   - serializedVersion: 3
+=======
+  - serializedVersion: 4
+>>>>>>> Stashed changes
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,8 +118,13 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
   - serializedVersion: 3
     buildTarget: iPhone
+=======
+  - serializedVersion: 4
+    buildTarget: iOS
+>>>>>>> Stashed changes
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +136,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
   - serializedVersion: 3
+=======
+  - serializedVersion: 4
+>>>>>>> Stashed changes
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,8 +153,13 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+=======
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+>>>>>>> Stashed changes
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -140,6 +175,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       name: Idle-Sheet_0
       rect:
@@ -148,6 +184,20 @@ TextureImporter:
         y: 0
         width: 40
         height: 27
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Hit.png.meta
+      name: _Hit_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 30
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5936571, y: 0.5294726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+>>>>>>> Stashed changes
 ========
       name: GandalfHardcore Water Tiles sheet_0
       rect:
@@ -156,14 +206,22 @@ TextureImporter:
         y: 128
         width: 160
         height: 60
+<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
+>>>>>>> Stashed changes
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       spriteID: 87fa2fb45690f6047a941109a5f4635d
       internalID: 730894396
@@ -171,11 +229,20 @@ TextureImporter:
       spriteID: c977098f40a28874ea57d837d970efb7
       internalID: -328627789
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Hit.png.meta
+      spriteID: b24cce7fec18d3c418437d4f96f5d3bb
+      internalID: 1818648981
+========
+      spriteID: c977098f40a28874ea57d837d970efb7
+      internalID: -328627789
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       name: Idle-Sheet_1
       rect:
@@ -185,6 +252,8 @@ TextureImporter:
         width: 42
         height: 26
 ========
+=======
+>>>>>>> Stashed changes
       name: GandalfHardcore Water Tiles sheet_1
       rect:
         serializedVersion: 2
@@ -192,7 +261,10 @@ TextureImporter:
         y: 64
         width: 160
         height: 60
+<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
+=======
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,6 +272,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       spriteID: 2e5fac4998fe88a43ac14d453cb83a2c
       internalID: 884927527
@@ -207,11 +280,16 @@ TextureImporter:
       spriteID: b88a81624dfd56442b0e23fdae29262c
       internalID: 1643841443
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
+=======
+      spriteID: b88a81624dfd56442b0e23fdae29262c
+      internalID: 1643841443
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       name: Idle-Sheet_2
       rect:
@@ -221,6 +299,8 @@ TextureImporter:
         width: 42
         height: 27
 ========
+=======
+>>>>>>> Stashed changes
       name: GandalfHardcore Water Tiles sheet_2
       rect:
         serializedVersion: 2
@@ -228,7 +308,10 @@ TextureImporter:
         y: 0
         width: 160
         height: 60
+<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
+=======
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,6 +319,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       spriteID: 349715bfc86e314489b82886c5a2e710
       internalID: -855081257
@@ -261,6 +345,8 @@ TextureImporter:
       spriteID: 10ed623886628154eb9ecec2a9e5832d
       internalID: 485360905
 ========
+=======
+>>>>>>> Stashed changes
       spriteID: 791f69465d8338b4da12f3b0c6262634
       internalID: 363425571
 >>>>>>>> Stashed changes:Assets/Out Assets/Gandalf Assets/GandalfHardcore FREE Platformer Assets/Animated Sprites/GandalfHardcore Water Tiles sheet.png.meta
@@ -269,6 +355,10 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+<<<<<<< Updated upstream
+=======
+    customData: 
+>>>>>>> Stashed changes
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -278,6 +368,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream
     nameFileIdTable:
 <<<<<<<< Updated upstream:Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet.png.meta
       Idle-Sheet_0: 730894396
@@ -285,6 +376,15 @@ TextureImporter:
       Idle-Sheet_2: -855081257
       Idle-Sheet_3: 485360905
 ========
+=======
+<<<<<<<< Updated upstream:Assets/Sprites Asset/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Hit.png.meta
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      _Hit_0: 1818648981
+========
+    nameFileIdTable:
+>>>>>>> Stashed changes
       GandalfHardcore Water Tiles sheet_0: -328627789
       GandalfHardcore Water Tiles sheet_1: 1643841443
       GandalfHardcore Water Tiles sheet_2: 363425571

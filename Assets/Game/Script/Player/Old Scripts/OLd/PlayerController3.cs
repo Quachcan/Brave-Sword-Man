@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerController3 : MonoBehaviour
+public class OldPlayerController3 : MonoBehaviour
 {
 
     private float movementInputDirection;

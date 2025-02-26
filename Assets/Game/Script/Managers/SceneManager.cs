@@ -34,23 +34,23 @@ public class SceneComponentManager : MonoBehaviour
     {
         UpdateGameManagerComponents();
         playerHealthBar = GameObject.Find("PlayerHealthBar").GetComponent<HealthBar>();
-        UIManager.Instance.InitializeHealthBar(playerHealthBar);
+        OldUIManager.Instance.InitializeHealthBar(playerHealthBar);
     }
 
     private void UpdateGameManagerComponents()
     {
-        GameManager gameManager = GameManager.Instance;
+        OldGameManager oldGameManager = OldGameManager.Instance;
         
-        if (gameManager != null)
+        if (oldGameManager != null)
         {
-            gameManager.player = FindObjectOfType<Player>();
-            gameManager.playerStat = FindObjectOfType<PlayerStat>();
-            gameManager.enemyBase = FindObjectOfType<EnemyBase>();
-            gameManager.bringerOfDeath = FindObjectOfType<BringerOfDeath>();
+            oldGameManager.player = FindObjectOfType<Player>();
+            oldGameManager.playerStat = FindObjectOfType<PlayerStat>();
+            oldGameManager.enemyBase = FindObjectOfType<EnemyBase>();
+            oldGameManager.bringerOfDeath = FindObjectOfType<BringerOfDeath>();
 
-            gameManager.playerStat?.Initialize();
-            gameManager.bringerOfDeath?.Initialize();
-            gameManager.guardKnight?.Initialize();
+            oldGameManager.playerStat?.Initialize();
+            oldGameManager.bringerOfDeath?.Initialize();
+            oldGameManager.guardKnight?.Initialize();
         }
     }
 

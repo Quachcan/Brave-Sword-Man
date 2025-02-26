@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: de43e92f9e973441588f2379483239bf
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old/Chests.meta
+guid: 4eff5a2e591bf42379227936f5f6617c
+========
+guid: 48fe800aad47a44a09d233b8e9e8c7d5
+>>>>>>>> Stashed changes:Assets/Game/Animation/AnimationClip/Player.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -12,7 +12,7 @@ public class PlayerBase : MonoBehaviour
     public float currentStamina;
     public float staminaRegenRate = 10f;
     [SerializeField]
-    private GameManager GM;
+    private OldGameManager GM;
 
     public delegate void OnHealthChange(float currenthealth);
     public event OnHealthChange onHealthChange;

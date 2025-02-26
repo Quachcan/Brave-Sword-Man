@@ -6,11 +6,15 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
   m_Name: Run
 =======
   m_Name: Walking
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+  m_Name: Fall
+>>>>>>> Stashed changes
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -20,6 +24,7 @@ AnimationClip:
   m_EulerCurves: []
   m_PositionCurves: []
   m_ScaleCurves: []
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
   m_FloatCurves:
   - serializedVersion: 2
@@ -181,10 +186,14 @@ AnimationClip:
 =======
   m_FloatCurves: []
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+  m_FloatCurves: []
+>>>>>>> Stashed changes
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
     - time: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
       value: {fileID: -2139545949, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
     - time: 0.1
@@ -214,6 +223,17 @@ AnimationClip:
     - time: 1
       value: {fileID: 21300000, guid: a6baf5056d31145e3ad76ad9a20bab8a, type: 3}
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+<<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Fall.anim
+      value: {fileID: 21300000, guid: 468749fe601781644b4e32ee1d2fafd2, type: 3}
+=======
+      value: {fileID: 144902075, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+    - time: 0.083333336
+      value: {fileID: -1351627046, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+    - time: 0.16666667
+      value: {fileID: -1351627046, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Fall.anim
+>>>>>>> Stashed changes
     attribute: m_Sprite
     path: 
     classID: 212
@@ -228,6 +248,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
       attribute: 915540170
       script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
@@ -267,6 +288,8 @@ AnimationClip:
       path: 0
 =======
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+>>>>>>> Stashed changes
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -275,6 +298,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
     - {fileID: -2139545949, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
     - {fileID: -970706592, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
@@ -292,16 +316,33 @@ AnimationClip:
     - {fileID: 21300000, guid: a6baf5056d31145e3ad76ad9a20bab8a, type: 3}
     - {fileID: 21300000, guid: a6baf5056d31145e3ad76ad9a20bab8a, type: 3}
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+<<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Fall.anim
+    - {fileID: 21300000, guid: 468749fe601781644b4e32ee1d2fafd2, type: 3}
+=======
+    - {fileID: 144902075, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+    - {fileID: -1351627046, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+    - {fileID: -1351627046, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Fall.anim
+>>>>>>> Stashed changes
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
     m_StopTime: 0.68333334
 =======
     m_StopTime: 1.0166667
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+<<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Fall.anim
+    m_StopTime: 0.016666668
+=======
+    m_StopTime: 0.18333334
+>>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Fall.anim
+>>>>>>> Stashed changes
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -316,6 +357,7 @@ AnimationClip:
     m_KeepOriginalPositionXZ: 0
     m_HeightFromFeet: 0
     m_Mirror: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Run.anim
   m_EditorCurves:
   - serializedVersion: 2
@@ -477,6 +519,9 @@ AnimationClip:
 =======
   m_EditorCurves: []
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Run.anim
+=======
+  m_EditorCurves: []
+>>>>>>> Stashed changes
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0

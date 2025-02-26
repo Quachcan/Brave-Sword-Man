@@ -22,6 +22,7 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 1969755350, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Jump.anim
     - time: 0.15
       value: {fileID: -1653677498, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
@@ -31,6 +32,11 @@ AnimationClip:
       value: {fileID: -1653677498, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
     - time: 0.11666667
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Jump.anim
+=======
+    - time: 0.06666667
+      value: {fileID: -1653677498, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
+    - time: 0.11666667
+>>>>>>> Stashed changes
       value: {fileID: -1653677498, guid: b5f658be1cd1a494181a7e0c55aae31c, type: 3}
     attribute: m_Sprite
     path: 
@@ -62,11 +68,15 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Animation/NamelessSwordMan/Jump.anim
     m_StopTime: 0.26666668
 =======
     m_StopTime: 0.13333334
 >>>>>>> Stashed changes:Assets/Game/Animation/Old/NamelessSwordMan/Jump.anim
+=======
+    m_StopTime: 0.13333334
+>>>>>>> Stashed changes
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

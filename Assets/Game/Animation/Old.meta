@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Game/Animation/Old.meta
 guid: 8cc8346562154452eb07df17b3a4b7b7
+========
+guid: 1a4a19b1a00f54f03b955f9b4f111dbd
+>>>>>>>> Stashed changes:Assets/Game/Animation/AnimationClip.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

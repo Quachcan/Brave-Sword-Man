@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Prefabs/Background/BackGround Layers.prefab.meta
 guid: 16aabc661a6b03946b602044a82db69c
 =======
@@ -8,6 +9,13 @@ guid: 0b1bfddab26f7d44eae5a9681e541edb
 guid: 16aabc661a6b03946b602044a82db69c
 >>>>>>>> Stashed changes:Assets/Game/Prefabs/Background/BackGround Layers.prefab.meta
 >>>>>>> Stashed changes:Assets/Game/Prefabs/Background/BackGround Layers.prefab.meta
+=======
+<<<<<<<< Updated upstream:Assets/Game/Prefabs/Dummy.prefab.meta
+guid: bb42084dffe5efd46a7ad9ae53873c8b
+========
+guid: 16aabc661a6b03946b602044a82db69c
+>>>>>>>> Stashed changes:Assets/Game/Prefabs/Background/BackGround Layers.prefab.meta
+>>>>>>> Stashed changes
 PrefabImporter:
   externalObjects: {}
   userData: 

@@ -29,13 +29,13 @@ public class PlayerCombat2 : PlayerBase
 
     private Animator animator;
 
-    private PlayerController3 PC;
+    //private PlayerController3 PC;
     private PlayerBase PB;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        PC = GetComponent<PlayerController3>();
+       //PC = GetComponent<PlayerController3>();
         animator.SetBool("canAttack", combatEnabled);
         PB = GetComponent<PlayerBase>();
     }
@@ -43,23 +43,23 @@ public class PlayerCombat2 : PlayerBase
 
     private void Update()
     {
-        CheckCombatInput();
+        //CheckCombatInput();
         CheckAttacks();
     }
 
-    private void CheckCombatInput()
-    {
-        if (Input.GetButtonDown("Fire1") && PC.stamina >= staminaCosPerAttack)
-        {
-            if (combatEnabled)
-            {
-                //Attempt combat
-                gotInput = true;
-                lastInputTime = Time.time;
-                PC.stamina -= staminaCosPerAttack;
-            }
-        }
-    }
+    // private void CheckCombatInput()
+    // {
+    //     if (Input.GetButtonDown("Fire1") && PC.stamina >= staminaCosPerAttack)
+    //     {
+    //         if (combatEnabled)
+    //         {
+    //             //Attempt combat
+    //             gotInput = true;
+    //             lastInputTime = Time.time;
+    //             PC.stamina -= staminaCosPerAttack;
+    //         }
+    //     }
+    // }
 
     private void CheckAttacks()
     {
@@ -102,26 +102,26 @@ public class PlayerCombat2 : PlayerBase
         animator.SetBool("attack1", false);
     }
 
-    private new void Damage(AttackDetails attackDetails)
-    {
-        if(!PC.GetDashStatus())
-        {
-            int direction;
-
-            //PB.TakeDamage(attackDetails.damageAmount);
-            
-            if (attackDetails.position.x < transform.position.x)
-            {
-                direction = 1;
-            }
-            else 
-            {
-                direction = -1;
-            }
-
-            PC.KnockBack(direction);
-        }
-    }
+    // private new void Damage(AttackDetails attackDetails)
+    // {
+    //     if(!PC.GetDashStatus())
+    //     {
+    //         int direction;
+    //
+    //         //PB.TakeDamage(attackDetails.damageAmount);
+    //         
+    //         if (attackDetails.position.x < transform.position.x)
+    //         {
+    //             direction = 1;
+    //         }
+    //         else 
+    //         {
+    //             direction = -1;
+    //         }
+    //
+    //         PC.KnockBack(direction);
+    //     }
+    // }
 
     private void OnDrawGizmos()
     {

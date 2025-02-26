@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Out Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png.meta
 guid: 3873ca67e2ebc1548820f1f94436af04
+========
+guid: bc612bcf46ad39648b4f18a794d02716
+>>>>>>>> Stashed changes:Assets/Out Assets/TileAsset/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
