@@ -5,8 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+<<<<<<< Updated upstream
   - Door
   - Enemy
+=======
+  - Mobs
+  - Door
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -15,11 +20,19 @@ TagManager:
   - Water
   - UI
   - Flame
+<<<<<<< Updated upstream
   - 
   - Ground
   - Player
   - Damageable
   - Dead
+=======
+  - Mobs
+  - Ground
+  - Player
+  - Damageable
+  - 
+>>>>>>> Stashed changes
   - 
   - 
   - 
@@ -68,10 +81,17 @@ TagManager:
   - name: Trees
     uniqueID: 3193595427
     locked: 0
+<<<<<<< Updated upstream
   - name: Decorations
     uniqueID: 2999409905
     locked: 0
   - name: Enemy
+=======
+  - name: Props
+    uniqueID: 2999409905
+    locked: 0
+  - name: Mob
+>>>>>>> Stashed changes
     uniqueID: 7970677
     locked: 0
   - name: Player

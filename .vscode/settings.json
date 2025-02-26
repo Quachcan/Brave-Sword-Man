@@ -59,15 +59,20 @@
     "dotnet.defaultSolution": "Brave Sword Man.sln",
     "git.ignoreLimitWarning": true,
     "cSpell.words": [
+<<<<<<< Updated upstream
         "Agro",
         "chơi",
         "Cinemachine",
         "công",
         "curren",
+=======
+        "chơi",
+>>>>>>> Stashed changes
         "đang",
         "định",
         "Dừng",
         "Giảm",
+<<<<<<< Updated upstream
         "gian",
         "Giới",
         "hiển",
@@ -103,5 +108,24 @@
     ],
     "cSpell.ignoreWords": [
         "Knigt"
+=======
+        "Giới",
+        "hoặc",
+        "hoạt",
+        "hướng",
+        "khoảng",
+        "không",
+        "Kích",
+        "Kiểm",
+        "legde",
+        "người",
+        "nhấn",
+        "phím",
+        "Raycast",
+        "Regen",
+        "Thiết",
+        "trong",
+        "velocityelocity"
+>>>>>>> Stashed changes
     ]
 }
